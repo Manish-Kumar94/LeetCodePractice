@@ -9,19 +9,17 @@ public class StackExample {
 
         Stack<Integer> st = new Stack<>();
 
-        System.out.print("\n How many number do you want to add in stack: ");
+        System.out.print("\nHow many number do you want to add in stack: ");
 
         try(Scanner sc = new Scanner(System.in)){
 
             Integer totalNumbers = sc.nextInt();
 
-            System.out.println(String.format("Enter %d numbers next to add in stack ",totalNumbers));
+            System.out.println(String.format("Enter %d numbers to add in stack :-",totalNumbers));
             for (int i = 0; i < totalNumbers; i++) {
                 st.add(sc.nextInt());
             }
         }
-
-        System.out.println(st);
 
         System.out.println("\nPrinting values in stack\n");
 
