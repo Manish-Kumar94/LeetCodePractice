@@ -9,6 +9,8 @@ public class StackExample {
 
         Stack<Integer> st = new Stack<>();
 
+        System.out.print("\n How many number do you want to add in stack: ");
+
         try(Scanner sc = new Scanner(System.in)){
 
             Integer totalNumbers = sc.nextInt();
@@ -21,7 +23,7 @@ public class StackExample {
 
         System.out.println(st);
 
-        System.out.println("\n\nPrinting values in stack\n");
+        System.out.println("\nPrinting values in stack\n");
 
         while(!st.isEmpty()){
             System.out.println(st.pop());
