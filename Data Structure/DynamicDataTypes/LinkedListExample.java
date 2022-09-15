@@ -55,7 +55,7 @@ public class LinkedListExample {
          */
 
         // Searching any element has Complexity of O(n), We would need to start from first node and iterate 
-        // untill we find a node value matching with searched value
+        // until we find a node value matching with searched value
         for(String s:lst){
             System.out.println("Iterated Value: "+s);
         }
